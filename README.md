@@ -79,14 +79,12 @@ The collected data is processed using embedded firmware and transmitted wireless
 
 | Component | Purpose |
 |---|---|
-| STM32WB55 | Main microcontroller |
-| BHI260AP IMU | Motion sensing |
-| BMM150 Magnetometer | Orientation correction |
-| FSR Sensors | Foot pressure sensing |
+| ESP32-C3 Super mini | Main microcontroller |
+| MPU9250| Motion sensing |
+| FSR Sensors (FSR402)| Foot pressure sensing |
 | LiPo Battery | Portable power supply |
-| BQ21040 | Battery charging IC |
-| LP5907 | 1.8V voltage regulation |
-| BLE Antenna | Wireless communication |
+| TP4056 | Battery charging IC |
+| LD33 | 1.8V voltage regulation |
 
 ---
 
